@@ -27,27 +27,35 @@
 
         </header>
 
-        
+
         <section id="contact">
 
             <h1>Contact</h1>
 
-            <div id="content">
-
-                <form action="#">
-                    Name<br>
-                    <input type="text" name="firstname" value="Mickey">
-                    <br>
-                    Email<br>
-                    <input type="text" name="firstname" value="Mickey">
-                    <br>
-                    Message<br>
-                    <input type="text" name="lastname" value="Mouse">
-                    <br><br>
-                    <input type="submit" value="Submit">
-                  </form> 
-            
-            </div>
+            <form>
+              
+                <div id="contact-name">
+                  <label for="name">Name</label>
+                  <br>
+                  <input type="text" id="name-contact" name="user_name" class="mytext">
+                </div>
+              
+                <div id="email">
+                  <label for="mail">Email</label>
+                  <br>
+                  <input type="email" id="mail" name="user_email" class="mytext">
+                </div>
+              
+                <div id="message">
+                  <label for="msg">Message</label>
+                  <br>
+                  <textarea id="msg" name="user_message" class="mymsg"></textarea>
+                </div>
+               
+                <div class="button">
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
 
         </section>
 

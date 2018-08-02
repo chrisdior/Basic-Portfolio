@@ -89,7 +89,7 @@ section {
     
 }
 
-img {
+#profile {
 
     /* height: 256px;
     width: 192px; */
@@ -105,14 +105,109 @@ h1 {
     border-bottom: 2px solid #cccccc;
     padding-bottom: 20px;
     margin-bottom: 30px;
+    color: #63A8A4;
 
 }
 
-#content {
+#content-about {
 
+}
+
+
+/* Body: "Contact" Content */
+
+#contact {
+
+    padding: 30px 30px 20px 30px;
+    margin-top: 30px;
+    width: 920px;
     
 }
 
+#contact-name {
+    
+  }
+  
+#email {
+
+    margin-top: 20px;
+    
+  }
+  
+#message {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+  /* /* input, textarea, select, button { 
+    width : 150px;
+    margin: 0;
+  
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+       /* -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+            /* box-sizing: border-box; 
+  } */
+
+  input {
+    font    : .9em/1.5em "handwriting", 'Arial';
+  
+    /* padding : 0 10px; */
+    margin  : 0;
+    width   : 920px;
+    height: 20px;
+  
+    background: none;
+  }
+  
+  
+    textarea {
+    font    : .9em/1.5em "handwriting", 'Arial';
+  
+    padding : 0 10px;
+    margin  : 0;
+    width   : 920px;
+    height: 300px;
+  
+    background: none;
+  }
+
+
+  button {
+    /* position     : absolute;
+    left         : 440px;
+    top          : 360px; */
+  
+    padding      :20px;
+  
+    font         : bold 1em 'Arial';
+    border       : none;
+    /* border-radius: 5px; */
+    background   : #63A8A4;
+    color: #ffffff;
+  
+    cursor       : pointer;
+  
+  /* -webkit-transform: rotate(-1.5deg);
+     -moz-transform: rotate(-1.5deg);
+      -ms-transform: rotate(-1.5deg);
+       -o-transform: rotate(-1.5deg);
+          transform: rotate(-1.5deg); */
+  }
+  
+  
+  button:hover,
+  button:focus {
+    outline   : none;
+    background: #4aaaa5;
+    color   : #FFF;
+  }
+
+
+  /* Body: Portfolio */
+
+  
 
 
 /* Footer */
