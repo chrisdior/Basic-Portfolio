@@ -14,6 +14,16 @@ body {
 
 /* Header */
 
+a {
+    text-decoration : none; 
+    color : #666666;
+}
+
+a:hover {
+
+    color: lightgray;
+}
+
 header {
 
 
@@ -215,7 +225,9 @@ h1 {
     
 }
 
-/* #hangman, 
+/* the below code does not work as I expected. It turns out some interesting effect"
+
+#hangman, 
 #rpg_game,
 #trivia,
 #rutgers,
@@ -240,6 +252,8 @@ h1 {
     padding: 20px;
     position: relative;
     top: -90px;
+    /* Using Percentage and it works!!! */
+    /* bottom: 32%; */
 }
 
 #content-portfolio {
