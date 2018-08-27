@@ -1,6 +1,7 @@
 # Basic-Portfolio
 
 Using basic HTML/CSS to design this portfolio. _(No mobile responsive applied to it yet.)_ 
+For mobile responsive portfolio, you can have a look at [Bootstrap-Portfolio](https://ngl4.github.io/Bootstrap-Portfolio/) and [Responsive-Portfolio](https://ngl4.github.io/Responsive-Portfolio/).
 
 ### Reflection:
 This basic portfolio helps me to understand the concepts of HTML and CSS better. I have experiment with different units of expressing sizes and length, such as,  `em`, `%`, and `px`, to learn more about their difference. I still need to go to do some research to get to know about these units more. 
